@@ -16,7 +16,12 @@ def create():
 
 def read():
         print('Valores da lista ->')
-        print(lista)
+        len(lista)
+        if len(lista) > 0:
+            for item in lista:
+                print(f' ->{item}')
+        else:
+            print('Lista vazia')
 
 
 def update():

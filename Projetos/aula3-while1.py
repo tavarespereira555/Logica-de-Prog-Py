@@ -18,3 +18,5 @@ if cont > 0:
     print('A media aritimetica dos valores sera:',m)
 else:
     print('Nenhum numero foi digitado')
+
+    print('n')
