@@ -25,10 +25,14 @@ def read():
 
 
 def update():
-    novo_nome= str(input('Digite o novo nome: '))
-    indice= int(input('Digite o indice (posicao): '))
-    lista[indice]= novo_nome
-    print(lista)
+    if not lista:
+        print('Lista Vazia')
+    else:
+        novo_nome= str(input('Digite o novo nome: '))
+        indice= int(input('Digite o indice (posicao): '))
+        lista[indice]= novo_nome
+        print(lista)
+
 
 
 def delet():
